@@ -9,6 +9,8 @@ const cats = [
     'Milo', 'Otis', 'Garfield'
 ]
 
+//-------------------- LAB RESET --------------------//
+
 //     describe('Array functions', function () {
 //       beforeEach(function () {
 //         cats.length = 0;
@@ -101,7 +103,7 @@ function prependCat(){
 //       });
 
 function removeLastCat(){
-    const removeLastCat = cats.slice( 0, cats.length - 1 )
+    const removeLastCat = cats.slice(0, cats.length - 1)
     return removeLastCat
 }
 
@@ -114,7 +116,7 @@ function removeLastCat(){
 //       });
 
 function removeFirstCat(){
-    const removeFirstCat = cats.slice( 1 )
+    const removeFirstCat = cats.slice(1)
     return removeFirstCat
 }
 
